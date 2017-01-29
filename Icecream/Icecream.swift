@@ -28,7 +28,7 @@ class Icecream {
         var flavorPeople: [String] = []
         for  (key, value) in favoriteFlavorsOfIceCream {
             if favoriteFlavorsOfIceCream[key] == flavor {
-                flavorPeople.append(value)
+                flavorPeople.append(key)
             }
         }
         return flavorPeople
